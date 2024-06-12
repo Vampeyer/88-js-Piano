@@ -1,0 +1,40 @@
+
+
+Keyboard Indexing Notes - 
+----------------------------------------------- 
+So we have 88 keys , and we are doing 44 each.
+Starting at f,//
+
+1/#1 - =/#12
+Q/#13 - {/#23       -- (this line Was going to be  up too }/#24 but meh  )
+
+A/#24 - "/#34
+
+Z/#35 - / /#44  . 
+
+Okay so the final design is going to be like that , so , we are not using the } , character
+the right curly braces. 
+This is because we can comfortably line things up stopping on the slash "/" Char. 
+
+So the mapping is like 
+Q - { 
+A - " 
+Z - /  
+
+So , Here we go 
+
+- Keyboard Numerical Mapping. 
+
+- {
+1:"#1",
+2:"#2",
+3:"#3",
+4:"#4",
+5:"#5",
+ } 
+
+Tone Numerical Mapping 
+
+
+
+

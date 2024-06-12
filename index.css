@@ -1,0 +1,30 @@
+.body { 
+    padding-bottom: 30px;
+}
+
+
+.keynote{
+    border: 2px black solid;
+    width: 50px;
+    height: 120px;
+    flex-direction: column;
+    
+}
+
+.top-text{ 
+    text-align: center;
+}
+.rangeSwitch { 
+    width:200px
+}
+
+
+.pressedButton { 
+  
+    width: 54px;
+    height: 125px;
+    flex-direction: column;
+    transform: scale(1.25);
+    transition: .15s ;
+    border: 5px solid blue;
+}

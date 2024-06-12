@@ -1,0 +1,150 @@
+
+
+![Music Sheet for Standard 88-Keys for piano](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/sa3j7p1pspsc30t980gy.png)
+
+
+--- My name is also Jacob R. Thompson so i will be calling this the 
+ Thompson Audio Mapping Format  , 
+or the Thompson - " your name here "  Audio format ,  
+I dont care ,  and
+as I am looking for possible input from others and hopefully collaboration , just in voting on the matters. 
+----------------------------------------------------------------------------------------------------------------
+
+Hello there  , this is Vampeyer. Good afternoon. 
+I am building a piano in JS , and I wanted to be as musically accurate as possible to do things 
+like write and read music and maybe even create some standards and layouts , to build  Ai audio in the future  that could do things like , 
+
+
+- Read a standardized  music sheet of 88 - standard keys 
+
+- Properly write these keys , to an agreed upon file format (JSON) , 
+              and set up a structure for giving them ID's of sorts , to reference, in data. 
+
+- Implement proper CRUD operations for files and sheets for composition
+ and composition tools. ( That's Create Read , Update and Delete operations , the basic building blocks.  )  
+
+- And Therefore,  in the future we would even then have the ability too do  more things like , 
+
+- Convert a song, or a said audio file  into a different  classical musical
+ instrument. 
+
+ - Translate and convert a song, or a said audio file  into a different  classical musical
+ instruments to play them for a particular piece of said music , 
+and even be able to do it 
+- Autonomously.  
+
+
+- Does that sound like something that may be interesting too you ? 
+
+
+If so  , 
+ 
+..... Lets begin then shall we ? 
+-----------------------------------------------------------------------------------------
+
+--- the first step is for us to both acquire and standardize a type of music sheet , to see what we are working with. 
+so that we can map it to the keyboard 
+
+
+- Luckily , My starter repo had a great detail of the 88 standard keys on a keyboard
+
+
+I have done my research and , the 
+Classical Piano Keyboard Structure  does, contain
+ -  88   keys  
+ref(1)-https://www.classicfm.com/discover-music/instruments/piano/why-pianos-have-88-keys/
+ref(2)-https://musicsynthlab.com/keyboard-technology-and-features/exploring-digital-piano-sizes-88-key-vs-73-key-vs-61-key/
+
+----------- 
+The second reference above , speaks of other numbers of keys and modifications for 
+other sizes.  -- Now , due to the fact that me and the rest of the professional community , 
+finds beings able to compose full pieces to be a requirement. Therefore , we will be suggesting 
+the 88- key standard for portability puroposes. 
+
+
+Here is another  , 
+virtual piano keyboard structure  - for the A23 virtual piano - 
+@ - https://recursivearts.com/virtual-piano/
+ - this working unity model for a piano contains 
+ - 36 regular keys , plus 25 sharpened keys , 
+equaling to 61 keys , as a 61-key standard. 
+
+
+--------------------------------------------------------------------------------------------------
+Now , what to do next  ?  - we have a working example here , on the working unity model for some basic 
+keyboard following structures. 
+
+https://recursivearts.com/virtual-piano/   ( Same URL as above )  
+
+ -- On the piano there , you may see s key switch available for both 
+Real and Full modes.   That of which are both attempts at
+mapping keys to the keyboard.  
+using a medium , more minimal  set of keys for a basic layout.  starting with 1 
+and ending with > or something.  
+
+and then a full set with the same range but htings like shift + 1 and shift + 2 for seperate note keytones. 
+- On a full 61 keyboard layout. 
+-------------------------------------------------------------------------
+Again , one more time , if you are not sure of what   I am describing above , you may visit that URL on a 
+computer , and when using the virtual keyboard , you can adjust those real and full settings there to see 
+again , a potential layout structure for the keyboard , of all in which maps 61 keys ,  
+
+----- And as a professional grade developer , I must say , that is a mapping implementation 
+that simply must be updated and standardized , 
++for the betterment of reading and writing data n a musical composition. 
+
++ for the betterment of actual keyboard usage and not around the further complication of playing 
+different notes inplaces that cause lessened functionality. 
+
+I say this a good shot in the Development  /  musical and audio realm , although 
+it really requires standardization for an adoption. 
+
+I say that this is a standardization that should be made for the betterment of the development 
+community , and professional producers as well in any fashion. 
+
+I say that some easy standard mapping method for use on the KEYBOARD is what we need first. 
+
+---------------------------------------------------------------------------------------------------
+
+-- Okay here we go , so this is my proposal for a new 
+88-standard notes - to -  keyboard mapping architecture    
+( Which, we can talk about modifying it as well as long as you give me credit too !
+ - The point of this is that we come up with a method together that is BEST usable .   )
+
+
+
+
+-----------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+New - Keyboard proposal structure for the mapping of 
+the 88 standard keys , More Structurally useful if and when -  based off of the keyboard. 
+
+ - Finding that there are not enough 
+keys on the keyboard to make 88 keys , but there are enough keys to make 44 , 
+
+I will be mapping them to keys , twice , once for 44 mapped keys on a top set 
+and 44 keys on a bottom set. 
+
+- doing this method is superior because all of the keys can be much more easily 
+accessed as well as then , even there could even be a USB upgrade for two keyboards , 
+ -- As to which if one wanted to map all 88 of the keys simultaniously, this could be possible with a hardware
+driver upgrade.
+
+- This is also a superior method because it can then standardize the proces as to where ,engineers could 
+actually just take two keyboards and then turn them into any type of muscial instrument. 
+
+- Then thereby , being able to create an elegant orchestra of sound and audio by first, 
+   accomplishing  a few key features such as , 
+
+  - Being able to quickly and easily reach the standard 88- keys at a time on a with a single keyboard , with a full 
+  	44 key , high and low style switch over. ( As too keep playing in sync as well.  )
+            
+  -Being able to reach all  of the standard 88- at once on two keyboards, if the keye were then mapped 
+		on the application layer properly. 
+----------------------------------------------------------------------------------------------------------
+
+
+
+- Will update later as  Iwork on it. - 06 / 09 / 2024 
+
+

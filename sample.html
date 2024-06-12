@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    
+
+<div class="keynote key" id="key1" > Noter Sampler </div>
+<div class="keynote key" id="key2" > Noter Sampler </div>
+<div class="keynote key" id="key3" > Noter Sampler </div>
+
+<audio id="audio1" src="./piano-sound-samples/01-A_2.mp3"></audio>
+<audio id="audio2" src="./piano-sound-samples/02-A_2s.mp3"></audio>
+<audio id="audio3" src="./piano-sound-samples/03-B_2.mp3"></audio>
+
+
+
+
+</body>
+</html>
+
+<script>
+
+// First we are setting our declarations
+                        // I am letting the code, to be flexible, yhet clean. 
+//Keys
+let key1 = document.querySelector("#key1");
+let key2 = document.querySelector("#key2");
+let key3 = document.querySelector("#key3")
+//Audios 
+let audio1 = document.querySelector("#audio1");
+let audio2 = document.querySelector("#audio2");
+let audio3 = document.querySelector("#audio3")
+// Transition Adding code , in simple statement syntax. 
+// Each is neatly wrapped n a if statement  , to see if said key pressed 
+// or fired was true or not .  ,  then the executed audio code . 
+
+// e is very important , passed in everywhere , and used as the event reference 
+
+
+
+function fireFirstKey(e){ 
+console.log(e.code  ,  "  Yo john dis is my event obj  -code")
+// console.log(e.code)1
+console.log(e.keyCode, " Da keycode is here ")
+// console.log(e.keyCode)
+
+
+// Keycode # 1  
+if (e.keyCode == 49){                  // 49 is the keyCode for 1  
+key1.classList.add("pressedButton")
+audio1.play()
+audio1.currentTime = 0
+console.log(true , " That was true ! ")
+}
+
+
+
+// console.log(e.keyCode)
+
+
+// Keycode # 1  
+if (e.keyCode == 50){                  // 49 is the keyCode for 1  
+key2.classList.add("pressedButton")
+audio2.play()
+audio2.currentTime = 0
+console.log(true , " That was true ! ")
+}
+
+// Keycode # 1  
+if (e.keyCode == 51){                  // 49 is the keyCode for 1  
+key3.classList.add("pressedButton")
+audio3.play()
+audio3.currentTime = 0
+console.log(true , " That was true ! ")
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+window.addEventListener("keydown" , function(e){
+fireFirstKey(e)
+costantEventLogger(e)
+})
+
+// Simple console logger  on keydown listener
+function costantEventLogger(e){
+    console.log(e);
+}
+
+
+// Transition Clearing Code 
+window.addEventListener("transitionend" , function(e){
+key1.classList.remove("pressedButton");
+key2.classList.remove("pressedButton")
+key3.classList.remove("pressedButton")
+
+
+})
+// -----------
+//----------------------------------------
+
+
+
+</script>

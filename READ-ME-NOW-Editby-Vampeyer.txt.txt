@@ -1,0 +1,52 @@
+Hello , My name is Jacob Thompson , 
+and I go by the dev name Vampeyer. 
+
+Today is 09/02/2024/ and I am creating a piano app in JavaScript. 
+
+Why ? , 
+
+Because pianos and classical instruments are, 
+a testament to the greatness and beauty of both humanity and physical objects , 
+to attribute to orchastrated sounds and widely loved compesed pieces alike. 
+
+Because classical instruments are a cornerstone of real class , and thats just that !  
+As well as a great and fun starting tool , pianos are  as well as  a scientest and engineers best friend.
+-----------------------------------------------------------------------------------------------
+And everybody loves them still today !  
+------------------------------------------------------------------------------------------
+So here we go , Piano in JavaScript. 
+
+
+
+I first needed to figure out the steps and come around to implementing them - just figuring out the steps, 
+because that is how a developer works. So it took me a while until I knew I needed the audio and stuff and actually found the correct
+noted piano audio I was looking for. 
+
+- I found some of this repository online ,  so  Iam leaving the details to the original creator there, 
+Because thats the correct way to do things , you must always give credit where it is due. 
+
+a Mr. Liam Lee , who has nicely compiled the audio sample, 
+from MuseScore and the screenshots to perfectly accompany the notes within. Please consider
+donating to him , as any of the money I make off of this application , I will be sharing the profits with 
+those who helped me.  
+
+Anyhow , yes I am making a
+partly paid for ,  freemium application out of this, because devs like to eat food as well.
+Period.  
+----------------------------------------------------------------------------------------
+
+Now , 1. I have the audio files from the repo now , 
+
+2. I am now looking at the piano scale , and I am going to attempt to arrange them in some order. 
+
+
+
+-------------------------------------------------------------------------------------------------------
+--- finishing this in  a new file called README-REBUILDNOTES
+
+
+
+
+
+
+
